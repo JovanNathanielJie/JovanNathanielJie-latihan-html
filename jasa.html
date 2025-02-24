@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Lowongan Kerja</h2>
+    <img src="fotofoto/Bengkel Sumber Aneka Jaya.jpeg" alt="Foto Bengkel" width="25%">
+    <hr style="border: 1px solid;">
+    <h3>Pengenalan Singkat</h3>
+    Bengkel Sumber Aneka Jaya adalah bengkel mobil 
+    yang berlokasi di Jl. Mayor Salim Batubara No.6, 
+    20 Ilir D II, Kecamatan Kemuning, Kota Palembang, Sumatera Selatan 30127. 
+    Bengkel ini menyediakan layanan ganti oli dan perawatan kendaraan lainnya. 
+    Jam operasionalnya adalah Senin hingga Sabtu pukul 07.30–17.00, 
+    dan pada hari Jumat pukul 07.30–14.00. 
+    <hr style="border: 1px solid;">
+
+    <h3>Lowongan Kerja</h3>
+
+    Selamat datang di Halaman Karir Bengkel Sumber Aneka Jaya! Kami senang Anda tertarik untuk bergabung dengan tim kami yang profesional dan berdedikasi tinggi. Di sini, Anda akan menemukan berbagai peluang untuk berkembang dalam dunia otomotif, bekerja bersama para ahli yang berkomitmen memberikan pelayanan terbaik bagi pelanggan. Jika Anda memiliki semangat inovasi, keahlian di bidang perawatan dan perbaikan kendaraan, serta tekad untuk terus belajar, kami mengundang Anda untuk menjelajahi lowongan kerja yang tersedia dan mengirimkan lamaran Anda. Bersama, mari kita ciptakan masa depan otomotif yang lebih gemilang dan berdaya saing tinggi!
+
+    <h4>Singkat Kata... <br> Kami Sedang Mencari Talenta Terbaik! Apakah Anda yang Kami Butuhkan?</h4>
+    <hr style="border: 1px solid;">
+    <h3>Pekerja Sukses yang Pernah Ada</h3>
+    <img src="fotofoto/Kung Fu Hustle.jpg" alt="Pegawai 1" width="30%">
+    <h4>Budi Santoso – Pemilik Bengkel Mandiri</h4>
+    Budi bergabung dengan Bengkel Sumber Aneka Jaya sebagai mekanik junior. Berkat bimbingan dari tim profesional dan pengalamannya menangani berbagai jenis kendaraan, ia berhasil mengasah keterampilannya dengan cepat. Setelah lima tahun bekerja, Budi memutuskan untuk membuka bengkel sendiri dan kini memiliki usaha bengkel mobil yang sukses di daerahnya.
+    <br>
+    <br>
+    <img src="fotofoto/Messi.jpg" alt="Pegawai 2" width="30%">
+    <h4>Andi Pratama – Teknisi Otomotif di Perusahaan Multinasional</h4>
+    Sebagai lulusan teknik mesin, Andi memulai karirnya di Bengkel Sumber Aneka Jaya untuk memperdalam keterampilan praktiknya. Berkat pengalaman di bengkel, ia menguasai berbagai teknologi otomotif modern. Kini, Andi bekerja sebagai teknisi di perusahaan otomotif internasional, menangani kendaraan kelas dunia dengan keahlian yang ia peroleh sejak di Sumber Aneka Jaya.
+    <br>
+    <br>
+    <img src="fotofoto/Mo Salah.webp" alt="Pegawai 3" width="30%">
+    <h4>Roni Wijaya – Instruktur Pelatihan Mekanik</h4>
+    Roni adalah salah satu mekanik perempuan yang memulai karirnya di Bengkel Sumber Aneka Jaya. Dengan kerja keras dan dedikasi, ia terus belajar hingga menjadi salah satu teknisi andalan. Setelah bertahun-tahun berkecimpung di dunia servis kendaraan, Rina kini berkarir sebagai instruktur pelatihan mekanik, membimbing generasi baru dalam industri otomotif.
+    <br>
+    <br>
+    <hr style="border: 1px solid;">
+    <h3>Bengkel Sumber Aneka Jaya bangga menjadi bagian dari perjalanan sukses mereka! Siap menjadi yang berikutnya? 🚀 <br> Daftarkan diri Anda!</h3>
+
+    <form action="proses.php" method="post">
+        Nama Lengkap <br>
+        <input type="text" name="nama" id="nama" required> <br>
+        <br>
+        Tanggal Lahir <br>
+        <input type="date" name="tanggalLahir" id="tanggalLahir"> <br>
+        <br>
+        Jenis Kelamin <br>
+        <!-- guna value ialah jika kita memilih laki-laki, maka akan dikirim L ke servernya
+         guna checked ialah untuk sbg default terpilih opsi -->
+        <input type="radio" name="jk" id="jkl" value="L" checked> Laki-laki <br>
+        <input type="radio" name="jk" id="jkp" value="P"> Perempuan <br>
+        <br>
+        Tempat Lahir <br>
+        <select name="tempatLahir" id="tempatLahir">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+            <option value="BDG">Bandung</option>
+            <option value="SBY">Surabaya</option>
+            <option value="DIY">Yogyakarta</option>
+        </select> <br>
+        <br>
+        Pesan <br>
+        <textarea name="pesan" id="pesan"></textarea>
+        <br> <br>
+        <button type="submit">Kirim</button>
+</body>
+</html>
